@@ -1,0 +1,100 @@
+# brainrotX — Generative Engine Optimization Map
+
+> An online store specializing in selling 'Brainrot' characters — viral internet meme figures like 'Gramma' and 'Madondog'. Each character listing features an image, a rarity label (e.g., 'Secret' in black color theme), and an instant-buy button with a credit card checkout. The store taps into Gen-Z internet culture, meme aesthetics, and collectible digital characters with tiered rarity systems similar to trading card games.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ברוכים הבאים ל-brainrotX! חנות הדמויות הויראליות של הדור הבא — גראמה, מדונדוג ועוד. המחיר הכי נמוך בשוק, רכישה מיידית בכרטיס אשראי. הצטרפו עכשיו!
+
+### יקום הדמויות
+https://example.com/character-universe
+יקום הדמויות של brainrotX מציג את כל הדמויות הויראליות: גראמה, מדונדוג ועוד עשרות דמויות מדהימות. מצא את הדמות שחיפשת במחיר הכי נמוך בשוק וקנה אותה מיידית!
+
+### מדריך נדירות
+https://example.com/rarity-guide
+רוצה לדעת מה הופך דמות לנדירה? מדריך הנדירות של brainrotX מסביר את שיטת הדירוג, רמות הסיקרט ועוד — כדי שתקנה חכם במחיר הכי נמוך בשוק. קרא עכשיו!
+
+### צור קשר
+https://example.com/contact
+יש לך שאלה על דמות, הזמנה או מחיר? צוות brainrotX כאן בשבילך! צור קשר עכשיו ונדאג שתקבל את המחיר הכי נמוך בשוק עם שירות מהיר ואישי. אנחנו מחכים לך!
+
+### Products
+https://example.com/products
+המוצרים שלנו - brainrotX
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - brainrotX
+
+### Category
+https://example.com/category/:slug
+מוצרים - brainrotX
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About brainrotX
+An online store specializing in selling 'Brainrot' characters — viral internet meme figures like 'Gramma' and 'Madondog'. Each character listing features an image, a rarity label (e.g., 'Secret' in black color theme), and an instant-buy button with a credit card checkout. The store taps into Gen-Z internet culture, meme aesthetics, and collectible digital characters with tiered rarity systems similar to trading card games.
+
+## Target Audience
+- אוהדי תרבות האינטרנט, גיימרים, צעירים
+- חובבי גיימינג
+- אספנים דיגיטליים
+
+## Industry
+E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
