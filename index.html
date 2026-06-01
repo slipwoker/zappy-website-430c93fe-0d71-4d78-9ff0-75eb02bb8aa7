@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "430c93fe-0d71-4d78-9ff0-75eb02bb8aa7";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "430c93fe-0d71-4d78-9ff0-75eb02bb8aa7";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -963,7 +963,7 @@
     </section>
   
 
-<section data-band-index="1" class="index-showcase-section" data-layout-spec="בית-showcase" dir="rtl">
+<section data-band-index="1" class="index-showcase-section" data-layout-spec="בית-showcase" dir="rtl" id="index-showcase-section">
   <!-- Decorative background blobs -->
   <div class="showcase-bg-blob showcase-bg-blob--1" aria-hidden="true"></div>
   <div class="showcase-bg-blob showcase-bg-blob--2" aria-hidden="true"></div>
@@ -971,33 +971,33 @@
   <div class="showcase-container">
     <!-- Intro Block -->
     <div class="showcase-intro">
-      <span class="showcase-eyebrow">אוסף מיוחד</span>
-      <h2 class="showcase-heading">הדמויות הכי <em>ויראליות</em> באינטרנט</h2>
-      <p class="showcase-subtext">כל דמות — עולם שלם. בחר את הנדיר שלך במחיר הכי נמוך בשוק.</p>
+      <p class="zappy-editable"><span class="showcase-eyebrow">אוסף מיוחד</span>
+      </p><h2 class="showcase-heading">הדמויות הכי <em>ויראליות</em> באינטרנט</h2>
+      <p class="showcase-subtext" style="color: rgb(25, 22, 34) !important;">כל דמות — עולם שלם. בחר את הנדיר שלך במחיר הכי נמוך בשוק.</p>
     </div>
 
     <!-- Cards Grid -->
-    <div class="showcase-grid">
+    <div class="showcase-grid zappy-preserve-css-grid" id="zappy-auto-grid-1780322072257-x2gocu" data-zappy-auto-grid="true" data-zappy-grid-align="start" data-original-item-width="362" data-original-gap="24px" style="--zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
 
       <!-- Card 1: Gramma -->
-      <article class="showcase-card showcase-card--side">
+      <article class="showcase-card showcase-card--side" data-grid-item-index="0">
         <div class="showcase-card__image-wrap">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Gramma brainrot meme character — a quirky viral internet grandma figure with exaggerated cartoon features, glowing aura, collectible card style portrait, dark editorial background with purple and lime accents, premium TCG card art style" width="400" height="380" src="/assets/site-index-showcase-image-1.webp" alt="גרמה — דמות בריינרוט">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Gramma brainrot meme character — a quirky viral internet grandma figure with exaggerated cartoon features, glowing aura, collectible card style portrait, dark editorial background with purple and lime accents, premium TCG card art style" width="400" height="380" src="/assets/site-index-showcase-image-1.webp" alt="גרמה — דמות בריינרוט" data-element-type="image" data-element-id="img-1780322072088-cbn08lfhk" style="">
           <div class="showcase-card__img-overlay" aria-hidden="true"></div>
         </div>
         <div class="showcase-card__body">
           <div class="showcase-card__meta">
             <h3 class="showcase-card__name">גרמה</h3>
-            <span class="showcase-rarity showcase-rarity--rare">נדיר</span>
-          </div>
-          <p class="showcase-card__desc">הסבתא שכבשה את האינטרנט. כל מי שמחזיק בה — יודע.</p>
+            <p class="zappy-editable"><span class="showcase-rarity showcase-rarity--rare">נדיר</span>
+          </p></div>
+          <p class="showcase-card__desc" style="color: rgb(25, 22, 34) !important;">הסבתא שכבשה את האינטרנט. כל מי שמחזיק בה — יודע.</p>
           <div class="showcase-card__buy-area">
             <div class="showcase-card__price">₪49.90</div>
-            <a href="/contact" class="showcase-btn-buy">
+            <p class="zappy-editable"><a href="/contact" class="showcase-btn-buy" data-element-type="button" data-element-id="btn-1780322072068-euk8m9cku" data-native-element="true">
               <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
               קנה עכשיו
             </a>
-          </div>
+          </p></div>
           <div class="showcase-card__checkout-hint">
             <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
             <small>תשלום מאובטח בכרטיס אשראי</small>
@@ -1006,56 +1006,56 @@
       </article>
 
       <!-- Card 2: Madondog (CENTER — featured) -->
-      <article class="showcase-card showcase-card--center">
+      <article class="showcase-card showcase-card--center zappy-grid-item-no-stretch" data-grid-item-index="1">
         <!-- Peeking gradient backplate -->
         <div class="showcase-center-backplate" aria-hidden="true"></div>
         <div class="showcase-card__featured-badge">⭐ מומלץ</div>
         <div class="showcase-card__image-wrap">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Madondog brainrot meme character — a legendary viral internet dog-human hybrid figure with dramatic glowing eyes, iconic expression, collectible TCG card art portrait, electric purple and acid-lime aura, premium dark editorial background, ultra-rare holographic card style" width="400" height="420" src="/assets/site-index-showcase-image-2.webp" alt="מדונדוג — דמות בריינרוט">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Madondog brainrot meme character — a legendary viral internet dog-human hybrid figure with dramatic glowing eyes, iconic expression, collectible TCG card art portrait, electric purple and acid-lime aura, premium dark editorial background, ultra-rare holographic card style" width="400" height="420" src="/assets/site-index-showcase-image-2.webp" alt="מדונדוג — דמות בריינרוט" data-element-type="image" data-element-id="img-1780322072088-mbedbyt8a" style="">
           <div class="showcase-card__img-overlay" aria-hidden="true"></div>
         </div>
         <div class="showcase-card__body">
           <div class="showcase-card__meta">
-            <h3 class="showcase-card__name">מדונדוג</h3>
-            <span class="showcase-rarity showcase-rarity--secret">SECRET</span>
-          </div>
-          <p class="showcase-card__desc">הדמות הנדירה ביותר. רק מעטים זוכים להחזיק בה. האגדה האמיתית של הבריינרוט.</p>
+            <h3 class="showcase-card__name" style="">גרמה אנד מדונדוג</h3>
+            <p><span class="showcase-rarity showcase-rarity--secret">SECRET</span>
+          </p></div>
+          <p class="showcase-card__desc" style="color: rgb(25, 22, 34) !important;">הדמות הנדירה ביותר. רק מעטים זוכים להחזיק בה. האגדה האמיתית של הבריינרוט.</p>
           <div class="showcase-card__buy-area">
-            <div class="showcase-card__price">₪89.90</div>
-            <a href="/contact" class="showcase-btn-buy showcase-btn-buy--featured">
+            <div class="showcase-card__price" style="">₪8.90</div>
+            <p><a href="/contact" class="showcase-btn-buy showcase-btn-buy--featured" data-element-type="button" data-element-id="btn-1780322072068-22xeqpjeq" data-native-element="true">
               <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
               קנה עכשיו
             </a>
-          </div>
-          <div class="showcase-card__checkout-hint">
-            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+          </p></div>
+          <div class="showcase-card__checkout-hint" style="">
+            <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="cursor: pointer;"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
             <small>תשלום מאובטח בכרטיס אשראי</small>
           </div>
         </div>
       </article>
 
       <!-- Card 3: Mystery -->
-      <article class="showcase-card showcase-card--side">
+      <article class="showcase-card showcase-card--side" data-grid-item-index="2">
         <div class="showcase-card__image-wrap showcase-card__image-wrap--mystery">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Mystery brainrot meme character — a shadowy silhouette with question mark, glowing outline, unknown viral internet figure, collectible TCG card art, dark dramatic background with purple mist and shimmer effects, ultra-rare mystery card reveal style" width="400" height="380" src="/assets/site-index-showcase-image-3.webp" alt="דמות מסתורית — בריינרוט">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Mystery brainrot meme character — a shadowy silhouette with question mark, glowing outline, unknown viral internet figure, collectible TCG card art, dark dramatic background with purple mist and shimmer effects, ultra-rare mystery card reveal style" width="400" height="380" src="/assets/site-index-showcase-image-3.webp" alt="דמות מסתורית — בריינרוט" data-element-type="image" data-element-id="img-1780322072088-venr8xuhm" style="">
           <div class="showcase-card__img-overlay" aria-hidden="true"></div>
           <div class="showcase-mystery-overlay" aria-hidden="true">
-            <span class="showcase-mystery-icon">?</span>
+            <span class="showcase-mystery-icon" style="color: rgb(25, 22, 34) !important;">?</span>
           </div>
         </div>
         <div class="showcase-card__body">
           <div class="showcase-card__meta">
             <h3 class="showcase-card__name">??? מסתורי</h3>
-            <span class="showcase-rarity showcase-rarity--ultra">ULTRA RARE</span>
-          </div>
-          <p class="showcase-card__desc">הזהות נסתרת. רק הנועזים ביותר מעיזים לקנות בלי לדעת מה יגיע.</p>
+            <p class="zappy-editable"><span class="showcase-rarity showcase-rarity--ultra" style="color: rgb(25, 22, 34) !important;">ULTRA RARE</span>
+          </p></div>
+          <p class="showcase-card__desc" style="color: rgb(25, 22, 34) !important;">הזהות נסתרת. רק הנועזים ביותר מעיזים לקנות בלי לדעת מה יגיע.</p>
           <div class="showcase-card__buy-area">
             <div class="showcase-card__price">₪69.90</div>
-            <a href="/contact" class="showcase-btn-buy">
+            <p class="zappy-editable"><a href="/contact" class="showcase-btn-buy" data-element-type="button" data-element-id="btn-1780322072068-5o2ulz2hw" data-native-element="true">
               <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
               קנה עכשיו
             </a>
-          </div>
+          </p></div>
           <div class="showcase-card__checkout-hint">
             <svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
             <small>תשלום מאובטח בכרטיס אשראי</small>
