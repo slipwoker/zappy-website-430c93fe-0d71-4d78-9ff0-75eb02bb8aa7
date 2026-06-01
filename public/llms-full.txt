@@ -246,7 +246,7 @@ Secret
 
 
 
-תשלום מאובטח בכרטיס אשראי
+תשלום   מאובטח בכרטיס אשראי
 
 
 
@@ -341,10 +341,13 @@ SECRET
 
 
 
-## למה brainrotX שונה מכולם
+##
+
+### למה brainrotX שונה מכולם
 
 
 אנחנו לא סתם חנות. אנחנו היקום הקולקטיבי של תרבות האינטרנט — עם המחיר הכי נמוך בשוק וחוויית רכישה שמרגישה כמו לפתוח קלף נדיר.
+
 
 
 
@@ -668,7 +671,7 @@ EPIC
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -872,7 +875,7 @@ Description: המוצרים שלנו - brainrotX
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -1077,7 +1080,7 @@ Description: עגלת הקניות שלך
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -1468,7 +1471,7 @@ Description: תשלום
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -1680,7 +1683,7 @@ Description: התחברות לקוחות
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -2047,7 +2050,7 @@ Description: החשבון שלי
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -2276,7 +2279,7 @@ Description: תודה על ההזמנה
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -2534,7 +2537,7 @@ brainrotX מחויבת לשביעות רצון לקוחותיה. מדיניות 
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -2741,7 +2744,7 @@ Description: פרטי המוצר - brainrotX
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -2972,7 +2975,7 @@ Description: מוצרים - brainrotX
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -3245,7 +3248,7 @@ brainrotX ("החברה", "אנו", "שלנו") מחויבת להגן על פרט
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -3502,7 +3505,7 @@ brainrotX מחויבת להנגיש את השירותים לכלל הציבור.
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -3778,7 +3781,7 @@ brainrotX מספקת E-commerce דרך האתר. השירותים כפופים �
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -4442,7 +4445,7 @@ SECRET
 
 - nwn48532@gmail.com
 - 0533491404
-- [business_address]
+-
 
 
 
@@ -4489,6 +4492,13 @@ DROP
 ---
 
 ## Product Catalog
+
+### סברוס
+URL: https://example.com/product/sbrvs-9mqbej
+Price: 15.90 ILS (sale, was 19.90 ILS)
+Availability: In stock
+
+---
 
 ### גרמה אנד מדונדונג
 URL: https://example.com/product/grmh-and-mdvndvng-fnwyi5

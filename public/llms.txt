@@ -64,7 +64,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 1**
+**Total active products: 2**
+
+### סברוס
+https://example.com/product/sbrvs-9mqbej
+- Price: 15.90 ILS (sale, was 19.90 ILS)
+- Availability: In stock
+- Image: https://example.com/assets/product-1780343444053-ny87er.webp
 
 ### גרמה אנד מדונדונג
 https://example.com/product/grmh-and-mdvndvng-fnwyi5

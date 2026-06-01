@@ -4,7 +4,20 @@
     <title>brainrotX</title>
     <link>https://example.com</link>
     <description>Product feed for brainrotX</description>
-    <lastBuildDate>Mon, 01 Jun 2026 19:49:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 19:57:36 GMT</lastBuildDate>
+    <item>
+      <g:id>04b41d7c-99af-4ae7-bb49-81d61e8d2fe9</g:id>
+      <g:title>סברוס</g:title>
+      <g:description>סברוס</g:description>
+      <g:link>https://example.com/product/sbrvs-9mqbej</g:link>
+      <g:image_link>https://example.com/assets/product-1780343444053-ny87er.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.90 ILS</g:price>
+      <g:sale_price>15.90 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>brainrotX</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>267968bc-b2d5-4e30-afb6-cdebf7c79f5e</g:id>
       <g:title>גרמה אנד מדונדונג</g:title>
