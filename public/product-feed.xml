@@ -4,6 +4,19 @@
     <title>brainrotX</title>
     <link>https://example.com</link>
     <description>Product feed for brainrotX</description>
-    <lastBuildDate>Mon, 01 Jun 2026 19:14:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 19:28:53 GMT</lastBuildDate>
+    <item>
+      <g:id>267968bc-b2d5-4e30-afb6-cdebf7c79f5e</g:id>
+      <g:title>גרמה אנד מדונדונג</g:title>
+      <g:description>גרמה אנד מדונדונג</g:description>
+      <g:link>https://example.com/product/grmh-and-mdvndvng-fnwyi5</g:link>
+      <g:image_link>https://example.com/assets/product-1780341474826-z485f.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>8.90 ILS</g:price>
+      <g:sale_price>7.90 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>brainrotX</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

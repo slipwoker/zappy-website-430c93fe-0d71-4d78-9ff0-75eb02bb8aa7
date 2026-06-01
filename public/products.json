@@ -1,8 +1,31 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-01T19:14:17.853Z",
+  "generated_at": "2026-06-01T19:28:53.453Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "267968bc-b2d5-4e30-afb6-cdebf7c79f5e",
+      "slug": "grmh-and-mdvndvng-fnwyi5",
+      "name": "גרמה אנד מדונדונג",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 7.9,
+      "base_price": 8.9,
+      "sale_price": 7.9,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1780341474826-z485f.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/grmh-and-mdvndvng-fnwyi5",
+      "categories": [],
+      "updated_at": "2026-06-01T19:18:10.790Z"
+    }
+  ]
 }

@@ -72,7 +72,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### גרמה אנד מדונדונג
+https://example.com/product/grmh-and-mdvndvng-fnwyi5
+- Price: 7.90 ILS (sale, was 8.90 ILS)
+- Availability: In stock
+- Image: https://example.com/assets/product-1780341474826-z485f.webp
 
 ---
 
