@@ -6,53 +6,53 @@
 
 ## Pages
 
-### בית
+### קנה דמויות ברינרוט במחיר הכי נמוך בשוק — brainrotX
 https://example.com
 ברוכים הבאים ל-brainrotX! חנות הדמויות הויראליות של הדור הבא — גראמה, מדונדוג ועוד. המחיר הכי נמוך בשוק, רכישה מיידית בכרטיס אשראי. הצטרפו עכשיו!
 
-### יקום הדמויות
+### גלה את יקום הדמויות הנדירות ביותר — brainrotX
 https://example.com/character-universe
 יקום הדמויות של brainrotX מציג את כל הדמויות הויראליות: גראמה, מדונדוג ועוד עשרות דמויות מדהימות. מצא את הדמות שחיפשת במחיר הכי נמוך בשוק וקנה אותה מיידית!
 
-### מדריך נדירות
+### מדריך הנדירות שישנה את הקולקציה שלך — brainrotX
 https://example.com/rarity-guide
 רוצה לדעת מה הופך דמות לנדירה? מדריך הנדירות של brainrotX מסביר את שיטת הדירוג, רמות הסיקרט ועוד — כדי שתקנה חכם במחיר הכי נמוך בשוק. קרא עכשיו!
 
-### צור קשר
-https://example.com/contact
-יש לך שאלה על דמות, הזמנה או מחיר? צוות brainrotX כאן בשבילך! צור קשר עכשיו ונדאג שתקבל את המחיר הכי נמוך בשוק עם שירות מהיר ואישי. אנחנו מחכים לך!
-
-### Products
+### מוצרים
 https://example.com/products
 המוצרים שלנו - brainrotX
 
-### Cart
+### עגלת קניות
 https://example.com/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://example.com/checkout
 תשלום
 
-### Login
+### התחברות
 https://example.com/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://example.com/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://example.com/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://example.com/product/:slug
 פרטי המוצר - brainrotX
 
-### Category
+### מוצרים
 https://example.com/category/:slug
 מוצרים - brainrotX
+
+### דבר איתנו ונמצא לך את העסקה הטובה — brainrotX
+https://example.com/contact
+יש לך שאלה על דמות, הזמנה או מחיר? צוות brainrotX כאן בשבילך! צור קשר עכשיו ונדאג שתקבל את המחיר הכי נמוך בשוק עם שירות מהיר ואישי. אנחנו מחכים לך!
 
 ## Legal & Policy
 
