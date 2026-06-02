@@ -744,7 +744,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "430c93fe-0d71-4d78-9ff0-75eb02bb8aa7";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "430c93fe-0d71-4d78-9ff0-75eb02bb8aa7";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1351,7 +1351,7 @@
   </div>
 </section>
 
-<section class="contact-contact-section" data-layout-spec="צור קשר-contact" dir="rtl">
+<section class="contact-contact-section" data-layout-spec="צור קשר-contact" dir="rtl" id="contact-contact-section">
   <!-- Background decorative elements -->
   <div class="contact-contact-section__bg-glow" aria-hidden="true"></div>
   <div class="contact-contact-section__noise" aria-hidden="true"></div>
@@ -1359,29 +1359,29 @@
   <div class="contact-contact-section__container">
     <!-- Section Header -->
     <div class="contact-contact-section__header">
-      <span class="contact-contact-section__eyebrow">צור קשר</span>
-      <h2 class="contact-contact-section__title" style="font-size: 334px;">יש לך שאלה? <span class="contact-contact-section__title-accent">נשמח לשמוע</span></h2>
-      <p class="contact-contact-section__subtitle">לשאלות על דמויות, רמות נדירות, ומחירים — אנחנו כאן בשבילך. <strong>המחיר הכי נמוך בשוק</strong>, ושירות שמתאים לאנרגיה.</p>
+      <p><span class="contact-contact-section__eyebrow">צור קשר</span>
+      </p><h2 class="contact-contact-section__title" style="font-size: 334px;"></h2><h3>יש לך שאלה? <span class="contact-contact-section__title-accent">נשמח לשמוע</span></h3>
+      <p class="contact-contact-section__subtitle" style="color: rgb(25, 22, 34) !important;">לשאלות על דמויות, רמות נדירות, ומחירים — אנחנו כאן בשבילך. <strong>המחיר הכי נמוך בשוק</strong>, ושירות שמתאים לאנרגיה.</p>
     </div>
 
     <!-- Two-column layout -->
-    <div class="contact-contact-section__grid">
+    <div class="contact-contact-section__grid zappy-preserve-css-grid" data-zappy-grid-align="start" data-original-item-width="586" data-original-gap="28px" style="display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
 
       <!-- Form Column (START = right in RTL) -->
-      <div class="contact-contact-section__form-panel">
+      <div class="contact-contact-section__form-panel" data-grid-item-index="0">
         <div class="contact-contact-section__panel-label">שלח הודעה</div>
         <form class="contact-form contact-contact-section__form" novalidate="">
           <div class="contact-contact-section__field-group">
             <label class="contact-contact-section__label" for="contact-name">שם מלא</label>
-            <input class="contact-contact-section__input" type="text" id="contact-name" name="name" placeholder="הכנס את שמך" required="">
+            <input class="contact-contact-section__input" type="text" id="contact-name" name="name" placeholder="הכנס את שמך" required="" fdprocessedid="fz485d">
           </div>
           <div class="contact-contact-section__field-group">
             <label class="contact-contact-section__label" for="contact-email">כתובת אימייל</label>
-            <input class="contact-contact-section__input" type="email" id="contact-email" name="email" placeholder="your@email.com" required="">
+            <input class="contact-contact-section__input" type="email" id="contact-email" name="email" placeholder="your@email.com" required="" fdprocessedid="bvzkxa">
           </div>
           <div class="contact-contact-section__field-group">
             <label class="contact-contact-section__label" for="contact-phone">טלפון</label>
-            <input class="contact-contact-section__input" type="tel" id="contact-phone" name="phone" placeholder="050-0000000">
+            <input class="contact-contact-section__input" type="tel" id="contact-phone" name="phone" placeholder="050-0000000" fdprocessedid="ahj71">
           </div>
           <div class="contact-contact-section__field-group">
             <label class="contact-contact-section__label" for="contact-message">הודעה</label>
@@ -1398,56 +1398,56 @@
             </label>
           </div>
 
-          <button type="submit" class="contact-contact-section__submit">
+          <button type="submit" class="contact-contact-section__submit" fdprocessedid="wpe7nd" data-element-type="button" data-element-id="btn-1780385799080-wmbdx2k59" data-native-element="true">
             <span>שלח הודעה</span>
-            <i class="fa-solid fa-paper-plane"></i>
+            <i class="fa-solid fa-paper-plane" data-element-type="icon" data-icon-type="fontawesome" data-element-id="icon-1780385801597-1pm5e32k6" style="pointer-events: auto; cursor: pointer;"></i>
           </button>
         </form>
       </div>
 
       <!-- Details Column (END = left in RTL) -->
-      <div class="contact-contact-section__details-panel">
+      <div class="contact-contact-section__details-panel" data-grid-item-index="1">
         <div class="contact-contact-section__panel-label">פרטי התקשרות</div>
 
         <div class="contact-contact-section__details-intro">
           <h3 class="contact-contact-section__details-title">דברו איתנו ישירות</h3>
-          <p class="contact-contact-section__details-body">אנחנו עונים לכל פנייה תוך 24 שעות. לשאלות על דמויות ספציפיות, רמות נדירות (כולל Secret ו-Ultra Rare), ומידע על רכישה — צרו קשר בכל דרך שנוחה לכם.</p>
+          <p class="contact-contact-section__details-body" style="color: rgb(25, 22, 34) !important;">אנחנו עונים לכל פנייה תוך 24 שעות. לשאלות על דמויות ספציפיות, רמות נדירות (כולל Secret ו-Ultra Rare), ומידע על רכישה — צרו קשר בכל דרך שנוחה לכם.</p>
         </div>
 
         <ul class="contact-contact-section__contact-list">
           <li class="contact-contact-section__contact-item">
             <span class="contact-contact-section__contact-icon" aria-hidden="true">
-              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-envelope" data-element-type="icon" data-element-id="icon-1780385799084-9hph4hoov" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             </span>
             <div class="contact-contact-section__contact-content">
-              <span class="contact-contact-section__contact-label">אימייל</span>
+              <span class="contact-contact-section__contact-label" style="color: rgb(25, 22, 34) !important;">אימייל</span>
               
             </div>
           </li>
           <li class="contact-contact-section__contact-item">
             <span class="contact-contact-section__contact-icon" aria-hidden="true">
-              <i class="fa-solid fa-phone"></i>
+              <i class="fa-solid fa-phone" data-element-type="icon" data-element-id="icon-1780385799084-nk65gsi8g" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             </span>
             <div class="contact-contact-section__contact-content">
-              <span class="contact-contact-section__contact-label">טלפון</span>
+              <span class="contact-contact-section__contact-label" style="color: rgb(25, 22, 34) !important;">טלפון</span>
               
             </div>
           </li>
           <li class="contact-contact-section__contact-item">
             <span class="contact-contact-section__contact-icon" aria-hidden="true">
-              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-whatsapp" data-element-type="icon" data-element-id="icon-1780385799084-83ik3o5vu" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             </span>
             <div class="contact-contact-section__contact-content">
-              <span class="contact-contact-section__contact-label">WhatsApp</span>
+              <span class="contact-contact-section__contact-label" style="color: rgb(25, 22, 34) !important;">WhatsApp</span>
               
             </div>
           </li>
           <li class="contact-contact-section__contact-item">
             <span class="contact-contact-section__contact-icon" aria-hidden="true">
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-location-dot" data-element-type="icon" data-element-id="icon-1780385799084-ulp61kns8" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             </span>
             <div class="contact-contact-section__contact-content">
-              <span class="contact-contact-section__contact-label">כתובת</span>
+              <span class="contact-contact-section__contact-label" style="color: rgb(25, 22, 34) !important;">כתובת</span>
               
             </div>
           </li>
@@ -1456,17 +1456,17 @@
         <!-- Response time badge -->
         <div class="contact-contact-section__response-badge">
           <div class="contact-contact-section__response-dot" aria-hidden="true"></div>
-          <span>זמן תגובה ממוצע: פחות מ-24 שעות</span>
-        </div>
+          <p class="zappy-editable"><span>זמן תגובה ממוצע: פחות מ-24 שעות</span>
+        </p></div>
 
         <!-- Reassurance block -->
         <div class="contact-contact-section__reassurance">
           <div class="contact-contact-section__reassurance-item">
-            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+            <i class="fa-solid fa-shield-halved" aria-hidden="true" data-element-type="icon" data-element-id="icon-1780385799084-rlr91cf8c" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             <span>כל הפרטים שלך מוגנים ומאובטחים</span>
           </div>
           <div class="contact-contact-section__reassurance-item">
-            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+            <i class="fa-solid fa-bolt" aria-hidden="true" data-element-type="icon" data-element-id="icon-1780385799084-vbfkm64jr" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
             <span>מענה מהיר לכל שאלה על בריינרוטים</span>
           </div>
         </div>
@@ -1794,7 +1794,7 @@
 
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
-        <img src="/assets/brainrotx-e-commerce-logo.webp" alt="brainrotX" class="logo" data-element-type="image" data-element-id="img-1780342010103-2j2uccmut" data-zappy-footer-image="true" >
+        <img src="/assets/brainrotx-e-commerce-logo.webp" alt="brainrotX" class="logo" data-element-type="image" data-element-id="img-1780342010103-2j2uccmut" data-zappy-footer-image="true" style="">
         <p class="footer-tagline">היקום הקולקטיבי של תרבות הרשת.<br><br>כל דמות — טיפה תרבותית מוגבלת.</p>
         <div class="footer-badges">
           
@@ -1816,13 +1816,13 @@
       <!-- Column 3: Contact -->
       <div class="footer-col">
         <h3 class="footer-heading">יצירת קשר</h3>
-        <ul class="footer-contact" ><li>
+        <ul class="footer-contact" style=""><li>
             <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1780342010100-v0hsugpth" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
             <span class="contact-text"><a href="mailto:nwn48532@gmail.com">nwn48532@gmail.com</a></span>
           </li><li>
             <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1780342010100-6gf3jk14g" data-icon-type="fontawesome" style="cursor: pointer;"></i></span>
-            <span class="contact-text"><a href="tel:0533491404" >0533491404</a></span>
-          </li><li><a href="/" ></a></li></ul>
+            <span class="contact-text"><a href="tel:0533491404" style="">0533491404</a></span>
+          </li><li><a href="/" style=""></a></li></ul>
         <div class="footer-hours">
           
           
@@ -1859,7 +1859,7 @@
               מדיניות החזרות
             </a>
         <a href="/accessibility">נגישות</a>
-        <a href="https://zappy5.com" target="_blank" class="zappy-attribution" >נוצר על ידי נועם אברהמס</a>
+        <a href="https://zappy5.com" target="_blank" class="zappy-attribution" style="">נוצר על ידי נועם אברהמס</a>
       </div>
     </div>
 
