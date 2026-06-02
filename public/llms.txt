@@ -10,35 +10,35 @@
 https://example.com
 ברוכים הבאים ל-brainrotX! חנות הדמויות הויראליות של הדור הבא — גראמה, מדונדוג ועוד. המחיר הכי נמוך בשוק, רכישה מיידית בכרטיס אשראי. הצטרפו עכשיו!
 
-### מוצרים
+### Products
 https://example.com/products
 המוצרים שלנו - brainrotX
 
-### עגלת קניות
+### Cart
 https://example.com/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://example.com/checkout
 תשלום
 
-### התחברות
+### Login
 https://example.com/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://example.com/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://example.com/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://example.com/product/:slug
 פרטי המוצר - brainrotX
 
-### מוצרים
+### Category
 https://example.com/category/:slug
 מוצרים - brainrotX
 
